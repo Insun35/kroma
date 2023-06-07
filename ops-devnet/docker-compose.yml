@@ -30,7 +30,7 @@ services:
 
   l2:
     pid: host # allow debugging
-    image: kromanetwork/geth:dev
+    image: kromanetwork/geth:latest
     ports:
       - "9545:8545"
       - "9546:8546"
